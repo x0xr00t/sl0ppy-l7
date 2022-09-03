@@ -1,0 +1,8 @@
+chmod +x header 
+chmod +x body 
+chmod +x apache
+chmod +x nginx 
+chmod +x sl0ppy-l7
+
+
+sudo apt install slowhttptest -y 
